@@ -1,3 +1,8 @@
+
+# provides config details for Azure TerraForm provider
+provider "azurerm" {
+  features {}
+
 resource "azurerm_resource_group" "RG-Terraform" {
   name     = "terraform-resource-group"
   location = "West Europe"
